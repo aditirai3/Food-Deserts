@@ -56,9 +56,31 @@ def stateinputs():
 def tractinputs():
 	return redirect('/api/v1.0/tract/'+str(request.form['tract']))
 
-@app.route("/resources.html")
+# @app.route('/zipcontact', methods=['GET', 'POST'])
+# def zipcontact():
+
+# 	return redirect('/api/v1.0/zip/'+str(request.form['zipcode']))
+
+@app.route("/resources.html", methods=['GET', 'POST'])
 def resources():
     # Return template and data
+    errors= []
+    if request.method == "POST":
+        # get zipcode that the person has entered
+        try:
+        	zipcode = request.form['zipcode']
+        	session = Session(engine)
+        	results = session.query(Contacts.name, Contacts.phone).\
+        		filter(Contacts.zip == zipcode).first()
+        	session.close()
+        	last, first = results[0].split(",")
+        	final = [first, last, results[1]]
+        	return render_template("resources.html", results=final)
+        except:
+            errors.append(
+                "Unable to get Zipcode. Please make sure it's valid and try again."
+            )
+            return render_template('resources.html', errors=errors)
     return render_template("resources.html")
 
 @app.route('/api/v1.0/zip/<zip_code>')

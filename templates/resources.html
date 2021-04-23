@@ -39,45 +39,23 @@
   </div>
 </nav>
 <div class="container-fluid main-page">
-<h2 id="first">API Documentation</h2>
-<p>All API routes return the following information by census tract:
-<ul>
-<li>Cenusus Tract</li>
-<li>Zip Code</li>
-<li>Food Desert Status (defined as low income and low access tract measured at 1 mile for urban areas and 20 miles for rural areas)</li>
-<li>Congressional District</li>
-<li>Contact Info:<ul><li>Representative</li><li>Phone #</li></ul></li>
-<li>Population</li>
-<li>Link to County Map by Census Tract</li>
-</ul>
-</p>
-<p>The following routes can be used: 
-<ul>
-  <li>/api/v1.0/zipapi/[zip_code] to return all tracts in a given zip code</li><br>
-    <form method="post" action="{{ url_for('zipinputs') }}">
+<h2 id="first">Let Your Voice Be Heard!</h2>
+<p>Let your congressperson know how important this issue is to you. Enter your Zip Code to get the contact information for your representative.
+  <form method="post" action="{{ url_for('resources') }}">
       <fieldset>
         <input name='zipcode' id="zipcode" value="">
-        <input type='submit' value='Try Zip API'>
+        <input type='submit' value='Enter Zip'>
       </fieldset>
-    </form><br>
-  <li>/api/v1.0/stateapi/[state] to return all tracts in a given state</li><br>
-      <form method="post" action="{{ url_for('stateinputs') }}">
-      <fieldset>
-        <input name='state' id="state" value="">
-        <input type='submit' value='Try State API'>
-      </fieldset>
-    </form><br>
-  <li>/api/v1.0/tractapi/[census_tract] to return all tracts by tract number (there may be multiple values returned, as there can be several zip codes/congressional districts per tract.</li><br>
-      <form method="post" action="{{ url_for('tractinputs') }}">
-      <fieldset>
-        <input name='tract' id="tract" value="">
-        <input type='submit' value='Try Tract API'>
-      </fieldset>
-    </form>
-</ul>
-Additionally, by removing "api" from route, a user can access JSON style data as non-callable text within the confines of the webpage (e.g. /api/v1.0/zip/[zip_code])
-</p>
+  </form><br>
+  {% if results %}
+  <h4>Call {{ results[0] }} {{ results[1] }} at {{ results[2] }}.</h4>
+  {% endif %}
+  {% if errors %}
+  <p> {{errors}} </p>
+  {% endif %}
+
 
 </div>
+
 </body>
 </html>
