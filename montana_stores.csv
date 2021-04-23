@@ -1,21 +1,44 @@
-,name,geometry.location.lat,geometry.location.lng,State
-0,D's supermarket,47.1532783,-110.2173593, Montana
-1,Big Sky Grocery,46.9827147,-109.7508206, Montana
-2,Midtown Market 2,46.4388959,-109.8292791, Montana
-3,Castle Mountain Grocery,46.54862199999999,-110.892858, Montana
-4,Nancy's Country Market,47.000357,-109.874524, Montana
-5,Denton Foods,47.3196092,-109.9492291, Montana
-6,Neihart Inconvenenience Store,46.9328775,-110.735339, Montana
-7,Mathis Food Farm,46.5479907,-110.9018708, Montana
-8,"Cream of the West, LLC",46.434978,-109.8208251, Montana
-9,Town Pump Food Store,46.5483471,-110.8994325, Montana
-10,Sinclair,46.4335983,-109.8287578, Montana
-11,Sinclair,47.1454111,-110.2218717, Montana
-12,Jersey Dairy,46.4377277,-109.835339, Montana
-13,Eddies Corner,46.982644,-109.744633, Montana
-14,Rocky Mountain Cookware,46.4383075,-109.8236187, Montana
-15,Harlowton Gardens,46.43263229999999,-109.8316297, Montana
-16,Britton's Sawmill,47.316165,-110.902672, Montana
-17,Conoco,46.54844079999999,-110.9034941, Montana
-18,US Agricultural Department,46.4364132,-109.8413375,
-19,Natural Resources Conservation,46.4343,-109.8309999, Montana
+,name,geometry.location.lat,geometry.location.lng,State,Type
+0,D's supermarket,47.1532783,-110.2173593, Montana,Grocery
+1,Big Sky Grocery,46.9827147,-109.7508206, Montana,Grocery
+2,Midtown Market 2,46.4388959,-109.8292791, Montana,Grocery
+3,Castle Mountain Grocery,46.548622,-110.892858, Montana,Grocery
+4,Nancy's Country Market,47.000357,-109.874524, Montana,Grocery
+5,Denton Foods,47.3196092,-109.9492291, Montana,Grocery
+6,Neihart Inconvenenience Store,46.9328775,-110.735339, Montana,Grocery
+7,Mathis Food Farm,46.5479907,-110.9018708, Montana,Grocery
+8,"Cream of the West, LLC",46.434978,-109.8208251, Montana,Grocery
+9,Town Pump Food Store,46.5483471,-110.8994325, Montana,Grocery
+10,Sinclair,46.4335983,-109.8287578, Montana,Grocery
+11,Sinclair,47.1454111,-110.2218717, Montana,Grocery
+12,Jersey Dairy,46.4377277,-109.835339, Montana,Grocery
+13,Eddies Corner,46.982644,-109.744633, Montana,Grocery
+14,Rocky Mountain Cookware,46.4383075,-109.8236187, Montana,Grocery
+15,Harlowton Gardens,46.4326323,-109.8316297, Montana,Grocery
+16,Britton's Sawmill,47.316165,-110.902672, Montana,Grocery
+17,Conoco,46.5484408,-110.9034941, Montana,Grocery
+18,US Agricultural Department,46.4364132,-109.8413375, Montana,Grocery
+19,Natural Resources Conservation,46.4343,-109.8309999, Montana,Grocery
+20,McDonald's,48.387043,-115.552063, Montana,Fast food
+21,McDonald's,48.387043,-115.552063, Montana,Fast food
+22,McDonald's,45.698929,-111.046744, Montana,Fast food
+23,McDonald's,45.698929,-111.046744, Montana,Fast food
+24,McDonald's,46.869446,-113.985036, Montana,Fast food
+25,McDonald's,48.396123,-114.334756, Montana,Fast food
+26,McDonald's,45.64066,-110.571452, Montana,Fast food
+27,McDonald's,46.411823,-112.724593, Montana,Fast food
+28,McDonald's,46.411823,-112.724593, Montana,Fast food
+29,McDonald's,46.411823,-112.724593, Montana,Fast food
+30,Taco Bell,48.203448,-114.307145, Montana,Fast food
+31,Taco Bell,47.521028,-111.308274, Montana,Fast food
+32,McDonald's,45.784209,-108.590538, Montana,Fast food
+33,Taco Bell,47.682629,-114.122911, Montana,Fast food
+34,Subway,45.963451,-112.508042, Montana,Fast food
+35,Subway,45.671099,-111.183253, Montana,Fast food
+36,Subway,46.313055,-114.113991, Montana,Fast food
+37,Subway,46.845902,-114.02204, Montana,Fast food
+38,Subway,47.490047,-111.32873, Montana,Fast food
+39,Subway,45.977098,-112.508572, Montana,Fast food
+40,Burger King,46.591343,-111.992666, Montana,Fast food
+41,Burger King,46.869053,-113.985451, Montana,Fast food
+42,Subway,48.635608,-112.330932, Montana,Fast food

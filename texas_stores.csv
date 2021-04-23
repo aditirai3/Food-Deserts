@@ -1,21 +1,355 @@
-,name,geometry.location.lat,geometry.location.lng,State
-0,Market Street,32.3967814,-99.76335019999999, Texas
-1,Natural Grocers,32.4098307,-99.77275809999999, Texas
-2,ALDI,32.4064605,-99.78688129999999, Texas
-3,United Supermarkets,32.4110004,-99.4918374, Texas
-4,Spring Market,31.9698158,-99.96183309999999, Texas
-5,Lowe's,32.2130941,-99.79582, Texas
-6,West Dale Meat Market & Deli,31.9575367,-99.9677937, Texas
-7,Hiway Grocery,32.1347881,-99.74261080000001, Texas
-8,Stewart Grocery,32.2805177,-99.8292213, Texas
-9,Novice grocery,31.9895873,-99.62368620000001, Texas
-10,Walmart,31.7203082,-99.9607415, Texas
-11,Vickie's,32.20996,-99.79804, Texas
-12,Walmart Supercenter,32.411045,-99.7814628, Texas
-13,Dollar General,31.7367684,-99.94869059999999, Texas
-14,Allsup's Convenience Store,31.8119016,-99.42254419999999, Texas
-15,Dollar General,31.960368,-99.96340509999999, Texas
-16,Family Dollar,32.2152224,-99.79563139999999, Texas
-17,United Supermarkets Pharmacy,32.396835,-99.7633201, Texas
-18,Allsup's Convenience Store,31.7461052,-99.9555018, Texas
-19,Family Dollar,31.8124586,-99.4236506, Texas
+,name,geometry.location.lat,geometry.location.lng,State,Type
+0,Market Street,32.3967814,-99.7633502, Texas,Grocery
+1,Natural Grocers,32.4098307,-99.7727581, Texas,Grocery
+2,ALDI,32.4064605,-99.7868813, Texas,Grocery
+3,United Supermarkets,32.4110004,-99.4918374, Texas,Grocery
+4,Spring Market,31.9698158,-99.9618331, Texas,Grocery
+5,Lowe's,32.2130941,-99.79582, Texas,Grocery
+6,West Dale Meat Market & Deli,31.9575367,-99.9677937, Texas,Grocery
+7,Hiway Grocery,32.1347881,-99.7426108, Texas,Grocery
+8,Stewart Grocery,32.2805177,-99.8292213, Texas,Grocery
+9,Novice grocery,31.9895873,-99.6236862, Texas,Grocery
+10,Walmart,31.7203082,-99.9607415, Texas,Grocery
+11,Vickie's,32.20996,-99.79804, Texas,Grocery
+12,Walmart Supercenter,32.411045,-99.7814628, Texas,Grocery
+13,Dollar General,31.7367684,-99.9486906, Texas,Grocery
+14,Allsup's Convenience Store,31.8119016,-99.4225442, Texas,Grocery
+15,Dollar General,31.960368,-99.9634051, Texas,Grocery
+16,Family Dollar,32.2152224,-99.7956314, Texas,Grocery
+17,United Supermarkets Pharmacy,32.396835,-99.7633201, Texas,Grocery
+18,Allsup's Convenience Store,31.7461052,-99.9555018, Texas,Grocery
+19,Family Dollar,31.8124586,-99.4236506, Texas,Grocery
+20,Taco Bell,33.007329,-96.554127, Texas,Fast food
+21,Taco Bell,32.274786,-95.306757, Texas,Fast food
+22,Burger King,29.88081,-95.683922, Texas,Fast food
+23,Burger King,29.88081,-95.683922, Texas,Fast food
+24,Burger King,33.762134,-96.581587, Texas,Fast food
+25,McDonald's,26.243395,-98.4423, Texas,Fast food
+26,Burger King,28.70574,-100.48395, Texas,Fast food
+27,Burger King,30.69488984,-96.36236943, Texas,Fast food
+28,Burger King,29.70529415,-95.4730184, Texas,Fast food
+29,Subway,29.905505,-96.876605, Texas,Fast food
+30,Subway,27.761418,-98.22821, Texas,Fast food
+31,Burger King,29.21207,-99.778349, Texas,Fast food
+32,Burger King,33.645878,-96.612181, Texas,Fast food
+33,McDonald's,33.158926,-96.680845, Texas,Fast food
+34,Subway,32.978659,-96.591288, Texas,Fast food
+35,Subway,32.643919,-97.075422, Texas,Fast food
+36,Subway,29.091554,-97.284129, Texas,Fast food
+37,Subway,35.161595,-101.90514, Texas,Fast food
+38,Subway,31.53293,-97.19316, Texas,Fast food
+39,Subway,32.735363,-97.769207, Texas,Fast food
+40,Taco Bell,30.023985,-93.843028, Texas,Fast food
+41,Taco Bell,32.809844,-97.425247, Texas,Fast food
+42,Taco Bell,30.080429,-94.163022, Texas,Fast food
+43,Taco Bell,30.080429,-94.163022, Texas,Fast food
+44,Taco Bell,30.080429,-94.163022, Texas,Fast food
+45,Taco Bell,32.746398,-96.994926, Texas,Fast food
+46,Taco Bell,32.823978,-97.185513, Texas,Fast food
+47,Subway,29.985963,-95.336909, Texas,Fast food
+48,Subway,29.75644,-95.367738, Texas,Fast food
+49,Subway,29.723702,-95.419112, Texas,Fast food
+50,Subway,29.659316,-95.508549, Texas,Fast food
+51,Subway,29.516969,-98.499215, Texas,Fast food
+52,Taco Bell,32.451319,-99.780855, Texas,Fast food
+53,Taco Bell,32.66235,-96.890538, Texas,Fast food
+54,Taco Bell,31.095156,-97.805963, Texas,Fast food
+55,Taco Bell,31.095156,-97.805963, Texas,Fast food
+56,Taco Bell,32.345524,-97.394348, Texas,Fast food
+57,Taco Bell,32.345524,-97.394348, Texas,Fast food
+58,Taco Bell,32.345524,-97.394348, Texas,Fast food
+59,Subway,32.957748,-95.29271, Texas,Fast food
+60,Subway,29.681262,-95.150041, Texas,Fast food
+61,Subway,33.661885,-95.505586, Texas,Fast food
+62,Subway,32.702835,-100.919222, Texas,Fast food
+63,Subway,33.17503,-96.503191, Texas,Fast food
+64,Subway,32.750332,-97.724647, Texas,Fast food
+65,Subway,32.432227,-99.756147, Texas,Fast food
+66,Burger King,29.773526,-95.307955, Texas,Fast food
+67,Burger King,29.736929,-95.532705, Texas,Fast food
+68,Burger King,29.699264,-95.517227, Texas,Fast food
+69,Burger King,29.699264,-95.517227, Texas,Fast food
+70,Burger King,29.688837,-95.644394, Texas,Fast food
+71,Burger King,32.330925,-96.112072, Texas,Fast food
+72,Burger King,32.329153,-96.624465, Texas,Fast food
+73,Burger King,31.754262,-106.344422, Texas,Fast food
+74,Burger King,31.785568,-106.413835, Texas,Fast food
+75,Burger King,31.904294,-106.422444, Texas,Fast food
+76,Burger King,32.658567,-96.890792, Texas,Fast food
+77,Burger King,32.83151,-96.839707, Texas,Fast food
+78,Burger King,32.909672,-96.857522, Texas,Fast food
+79,Burger King,25.921239,-97.473976, Texas,Fast food
+80,Burger King,30.517742,-97.828697, Texas,Fast food
+81,Burger King,33.012773,-96.887404, Texas,Fast food
+82,Burger King,33.552932,-96.209495, Texas,Fast food
+83,Taco Bell,32.333552,-96.616592, Texas,Fast food
+84,Taco Bell,32.333552,-96.616592, Texas,Fast food
+85,Taco Bell,32.333552,-96.616592, Texas,Fast food
+86,Taco Bell,31.680665,-106.313785, Texas,Fast food
+87,Taco Bell,31.872382,-106.426598, Texas,Fast food
+88,Taco Bell,31.829729,-106.527944, Texas,Fast food
+89,Taco Bell,35.850968,-101.973341, Texas,Fast food
+90,Taco Bell,32.746076,-96.683491, Texas,Fast food
+91,Taco Bell,32.863738,-96.895962, Texas,Fast food
+92,Taco Bell,29.380648,-100.904813, Texas,Fast food
+93,Taco Bell,32.91046,-96.735539, Texas,Fast food
+94,Taco Bell,27.707568,-97.388725, Texas,Fast food
+95,Taco Bell,27.666015,-97.283857, Texas,Fast food
+96,Taco Bell,32.576285,-95.855334, Texas,Fast food
+97,Taco Bell,30.127462,-94.15964, Texas,Fast food
+98,Taco Bell,30.348699,-97.735013, Texas,Fast food
+99,Burger King,30.236888,-97.721834, Texas,Fast food
+100,Wendy's,29.731871,-95.384669, Texas,Fast food
+101,Wendy's,29.731871,-95.384669, Texas,Fast food
+102,Wendy's,32.925478,-96.839414, Texas,Fast food
+103,Wendy's,32.40874,-99.781034, Texas,Fast food
+104,Wendy's,34.979764,-101.919333, Texas,Fast food
+105,Wendy's,33.105237,-96.805055, Texas,Fast food
+106,Wendy's,32.647465,-96.866226, Texas,Fast food
+107,Wendy's,29.394964,-94.935809, Texas,Fast food
+108,Wendy's,29.394964,-94.935809, Texas,Fast food
+109,Wendy's,32.232185,-101.471114, Texas,Fast food
+110,Wendy's,30.238834,-97.725402, Texas,Fast food
+111,Wendy's,29.3884,-100.905219, Texas,Fast food
+112,Wendy's,32.941364,-97.121339, Texas,Fast food
+113,Wendy's,26.304057,-98.180001, Texas,Fast food
+114,Wendy's,33.071401,-97.059489, Texas,Fast food
+115,Wendy's,29.798149,-95.369956, Texas,Fast food
+116,Wendy's,32.954204,-96.885816, Texas,Fast food
+117,Wendy's,32.744589,-96.682142, Texas,Fast food
+118,Wendy's,32.744589,-96.682142, Texas,Fast food
+119,SUBWAY,33.112781,-96.659834, Texas,Fast food
+120,Subway,32.597845,-96.939267, Texas,Fast food
+121,Subway,33.131672,-94.968766, Texas,Fast food
+122,McDonald's,30.08219,-94.13516, Texas,Fast food
+123,McDonald's,33.590493,-101.858892, Texas,Fast food
+124,McDonald's,32.80065,-96.627222, Texas,Fast food
+125,Burger King,31.888679,-102.356185, Texas,Fast food
+126,Burger King,33.216656,-96.631719, Texas,Fast food
+127,Burger King,33.216656,-96.631719, Texas,Fast food
+128,Burger King,26.239152,-98.221865, Texas,Fast food
+129,Burger King,33.577755,-101.868444, Texas,Fast food
+130,Burger King,33.54911,-101.860063, Texas,Fast food
+131,Burger King,33.519732,-101.901231, Texas,Fast food
+132,Burger King,27.592189,-99.512159, Texas,Fast food
+133,Burger King,26.162935,-97.824032, Texas,Fast food
+134,Burger King,32.86468,-96.992263, Texas,Fast food
+135,Burger King,29.721605,-95.352333, Texas,Fast food
+136,Burger King,29.726663,-95.4181, Texas,Fast food
+137,Burger King,29.759701,-95.364481, Texas,Fast food
+138,Burger King,29.641908,-95.241751, Texas,Fast food
+139,McDonald's,29.397622,-98.557511, Texas,Fast food
+140,McDonald's,29.897457,-95.42991, Texas,Fast food
+141,McDonald's,29.897457,-95.42991, Texas,Fast food
+142,McDonald's,27.740361,-97.438198, Texas,Fast food
+143,McDonald's,31.742009,-106.377783, Texas,Fast food
+144,McDonald's,29.535303,-98.331939, Texas,Fast food
+145,McDonald's,29.679865,-95.356402, Texas,Fast food
+146,McDonald's,29.738061,-95.5025, Texas,Fast food
+147,McDonald's,29.738061,-95.5025, Texas,Fast food
+148,McDonald's,29.870605,-95.407467, Texas,Fast food
+149,McDonald's,32.331047,-96.620697, Texas,Fast food
+150,McDonald's,29.737044,-95.305392, Texas,Fast food
+151,McDonald's,29.737044,-95.305392, Texas,Fast food
+152,McDonald's,33.199406,-96.706495, Texas,Fast food
+153,McDonald's,29.849088,-95.30296, Texas,Fast food
+154,McDonald's,32.643775,-97.115846, Texas,Fast food
+155,McDonald's,32.643775,-97.115846, Texas,Fast food
+156,McDonald's,31.703856,-106.319325, Texas,Fast food
+157,Taco Bell,30.190965,-98.086549, Texas,Fast food
+158,Taco Bell,30.51735,-97.689343, Texas,Fast food
+159,Taco Bell,31.938388,-106.407135, Texas,Fast food
+160,Taco Bell,29.399535,-95.03796, Texas,Fast food
+161,Taco Bell,29.680383,-95.122912, Texas,Fast food
+162,Taco Bell,32.826743,-96.83058, Texas,Fast food
+163,Taco Bell,30.964101,-95.885554, Texas,Fast food
+164,Taco Bell,32.785099,-97.060961, Texas,Fast food
+165,Taco Bell,32.785099,-97.060961, Texas,Fast food
+166,Taco Bell,29.212832,-99.77778, Texas,Fast food
+167,Subway,29.551541,-95.694136, Texas,Fast food
+168,Subway,34.98186,-101.919308, Texas,Fast food
+169,Subway,29.99638,-95.161887, Texas,Fast food
+170,Subway,32.835955,-96.629937, Texas,Fast food
+171,Subway,31.096631,-97.720787, Texas,Fast food
+172,Subway,30.717538,-95.551437, Texas,Fast food
+173,Subway,33.129986,-96.670843, Texas,Fast food
+174,Subway,32.388575,-100.866551, Texas,Fast food
+175,Subway,29.746486,-95.360385, Texas,Fast food
+176,McDonald's,33.008282,-96.544518, Texas,Fast food
+177,McDonald's,28.309859,-97.274324, Texas,Fast food
+178,McDonald's,29.534345,-95.516232, Texas,Fast food
+179,McDonald's,29.783736,-95.520568, Texas,Fast food
+180,McDonald's,29.484724,-98.666905, Texas,Fast food
+181,McDonald's,33.23776,-97.60375, Texas,Fast food
+182,McDonald's,29.781447,-95.543159, Texas,Fast food
+183,McDonald's,29.90105,-95.551515, Texas,Fast food
+184,McDonald's,29.640633,-95.244523, Texas,Fast food
+185,McDonald's,32.895643,-96.722979, Texas,Fast food
+186,McDonald's,29.822449,-94.899115, Texas,Fast food
+187,McDonald's,29.942785,-93.990044, Texas,Fast food
+188,McDonald's,29.468774,-98.648822, Texas,Fast food
+189,Subway,32.931335,-96.649148, Texas,Fast food
+190,Subway,30.257639,-98.852392, Texas,Fast food
+191,Subway,33.660309,-96.60023, Texas,Fast food
+192,Subway,32.396009,-99.761579, Texas,Fast food
+193,Subway,32.796316,-96.773472, Texas,Fast food
+194,Subway,26.107237,-98.256943, Texas,Fast food
+195,McDonald's,32.500507,-94.734952, Texas,Fast food
+196,McDonald's,27.698889,-97.411379, Texas,Fast food
+197,McDonald's,29.727999,-95.345183, Texas,Fast food
+198,McDonald's,33.003562,-96.68154, Texas,Fast food
+199,McDonald's,29.553856,-95.258029, Texas,Fast food
+200,McDonald's,29.939013,-95.397632, Texas,Fast food
+201,McDonalds,31.775922,-106.379298, Texas,Fast food
+202,McDonald's,32.947305,-96.61939, Texas,Fast food
+203,McDonald's,29.739693,-95.643664, Texas,Fast food
+204,Wendy's,31.787478,-106.410762, Texas,Fast food
+205,Wendy's,29.357073,-98.500687, Texas,Fast food
+206,McDonald's,30.170202,-94.18503, Texas,Fast food
+207,Burger King,30.51772,-97.828739, Texas,Fast food
+208,McDonald's,30.447701,-97.639516, Texas,Fast food
+209,Taco Bell,29.510698,-98.389067, Texas,Fast food
+210,Subway,29.785068,-95.46735, Texas,Fast food
+211,McDonald's,32.704867,-96.82811, Texas,Fast food
+212,Taco Bell,32.909148,-96.856516, Texas,Fast food
+213,Burger King,30.694868,-96.362345, Texas,Fast food
+214,McDonald's,33.018994,-96.734134, Texas,Fast food
+215,Taco Bell,32.087414,-96.4714, Texas,Fast food
+216,Mcdonalds Whitehouse,32.235493,-95.228496, Texas,Fast food
+217,Wendy's,30.510602,-97.687872, Texas,Fast food
+218,McDonald's,26.293074,-97.992806, Texas,Fast food
+219,McDonald's,33.116343,-94.180814, Texas,Fast food
+220,McDonald's,27.574722,-99.472833, Texas,Fast food
+221,McDonald's,26.267809,-98.204225, Texas,Fast food
+222,Burger King,30.486518,-97.677149, Texas,Fast food
+223,McDonald's,31.079343,-97.699536, Texas,Fast food
+224,SUBWAY,28.632439,-96.626813, Texas,Fast food
+225,Burger King,26.250076,-98.254918, Texas,Fast food
+226,Burger King,26.250076,-98.254918, Texas,Fast food
+227,Wendy's,29.654532,-95.569522, Texas,Fast food
+228,Wendy's,29.654532,-95.569522, Texas,Fast food
+229,Wendy's,32.881752,-96.856112, Texas,Fast food
+230,Wendy's,30.300467,-97.719643, Texas,Fast food
+231,Wendy's,29.757565,-95.368083, Texas,Fast food
+232,Wendy's,32.742924,-96.44661, Texas,Fast food
+233,McDonald's,29.701766,-95.359892, Texas,Fast food
+234,McDonald's,29.684475,-95.155544, Texas,Fast food
+235,McDonald's,29.684475,-95.155544, Texas,Fast food
+236,Burger King,29.650254,-95.158436, Texas,Fast food
+237,Taco Bell,32.758332,-97.166618, Texas,Fast food
+238,Subway,30.385807,-97.942756, Texas,Fast food
+239,Subway,30.16598,-97.69252, Texas,Fast food
+240,Subway,30.394463,-97.720675, Texas,Fast food
+241,Subway,30.369553,-97.801748, Texas,Fast food
+242,Subway,30.375423,-97.67237, Texas,Fast food
+243,Subway,30.335478,-97.717706, Texas,Fast food
+244,McDonald's,28.984005,-96.649937, Texas,Fast food
+245,McDonald's,29.956274,-94.006475, Texas,Fast food
+246,McDonald's,32.865232,-96.864162, Texas,Fast food
+247,McDonald's,29.394933,-94.949651, Texas,Fast food
+248,McDonald's,29.449888,-98.569681, Texas,Fast food
+249,McDonald's,29.705992,-95.411102, Texas,Fast food
+250,McDonald's,29.705992,-95.411102, Texas,Fast food
+251,McDonald's,29.532632,-95.808132, Texas,Fast food
+252,McDonald's,29.532632,-95.808132, Texas,Fast food
+253,McDonald's,32.876019,-96.619041, Texas,Fast food
+254,McDonald's,27.728157,-97.412907, Texas,Fast food
+255,McDonald's,33.875752,-98.539921, Texas,Fast food
+256,McDonald's,29.22507,-99.76074, Texas,Fast food
+257,McDonald's,29.730854,-94.957348, Texas,Fast food
+258,McDonald's,32.81333,-96.949059, Texas,Fast food
+259,McDonald's,32.81333,-96.949059, Texas,Fast food
+260,McDonald's,29.542261,-95.062091, Texas,Fast food
+261,McDonald's,29.385978,-98.524592, Texas,Fast food
+262,McDonald's,32.807326,-96.626159, Texas,Fast food
+263,McDonald's,32.332342,-95.265974, Texas,Fast food
+264,McDonald's,28.808265,-96.982816, Texas,Fast food
+265,McDonald's,32.748901,-96.922344, Texas,Fast food
+266,McDonald's,33.418244,-94.099072, Texas,Fast food
+267,McDonald's,30.336035,-95.098822, Texas,Fast food
+268,Taco Bell,30.166986,-95.462236, Texas,Fast food
+269,Taco Bell,29.664544,-95.099316, Texas,Fast food
+270,Taco Bell,34.436378,-100.232426, Texas,Fast food
+271,McDonald's,32.662997,-96.824485, Texas,Fast food
+272,McDonald's,27.66579,-97.284009, Texas,Fast food
+273,McDonald's,33.115805,-95.596189, Texas,Fast food
+274,McDonald's,31.530868,-97.188088, Texas,Fast food
+275,McDonald's,30.367016,-95.483983, Texas,Fast food
+276,McDonald's,29.628592,-95.229156, Texas,Fast food
+277,McDonald's,30.099173,-95.593525, Texas,Fast food
+278,McDonald's,29.884902,-93.941839, Texas,Fast food
+279,McDonald's,29.550362,-98.66441, Texas,Fast food
+280,McDonald's,34.808666,-102.411204, Texas,Fast food
+281,McDonald's,34.808666,-102.411204, Texas,Fast food
+282,McDonald's,32.857737,-96.646521, Texas,Fast food
+283,McDonald's,30.521355,-97.830988, Texas,Fast food
+284,McDonald's,29.400726,-95.246399, Texas,Fast food
+285,McDonald's,31.752952,-106.344295, Texas,Fast food
+286,McDonald's,30.764683,-94.415971, Texas,Fast food
+287,McDonald's,29.688278,-95.567754, Texas,Fast food
+288,McDonald's,32.999036,-96.910883, Texas,Fast food
+289,McDonald's,29.774294,-95.246611, Texas,Fast food
+290,McDonald's,32.70956,-97.002614, Texas,Fast food
+291,McDonald's,32.996968,-94.958974, Texas,Fast food
+292,McDonald's,29.093527,-97.289278, Texas,Fast food
+293,McDonald's,29.423877,-98.487484, Texas,Fast food
+294,McDonald's,29.88191,-97.916341, Texas,Fast food
+295,McDonald's,30.190289,-95.589157, Texas,Fast food
+296,McDonald's,29.685079,-97.655844, Texas,Fast food
+297,McDonald's,29.828007,-95.375796, Texas,Fast food
+298,McDonald's,31.487073,-100.458364, Texas,Fast food
+299,McDonald's,33.365537,-97.180722, Texas,Fast food
+300,McDonald's,29.853865,-95.399585, Texas,Fast food
+301,McDonald's,29.713376,-95.313253, Texas,Fast food
+302,McDonald's,30.133592,-94.165253, Texas,Fast food
+303,Taco Bell,32.892794,-97.28746, Texas,Fast food
+304,Taco Bell,30.400225,-97.747279, Texas,Fast food
+305,Taco Bell,30.461648,-97.795071, Texas,Fast food
+306,Taco Bell,32.737449,-96.283155, Texas,Fast food
+307,Taco Bell,33.591894,-101.938634, Texas,Fast food
+308,Taco Bell,32.809535,-98.095303, Texas,Fast food
+309,Taco Bell,29.364614,-98.439823, Texas,Fast food
+310,McDonald's,30.01133,-97.86279, Texas,Fast food
+311,Wendy's,32.8407,-97.3429, Texas,Fast food
+312,Burger King,29.474348,-98.50821, Texas,Fast food
+313,Wendy's,32.64843605,-96.53323352, Texas,Fast food
+314,McDonald's,31.80161,-106.30395, Texas,Fast food
+315,Burger King,29.71802,-95.53888, Texas,Fast food
+316,Wendy's,29.71501,-95.4965, Texas,Fast food
+317,Burger King,29.77365137,-95.81826649, Texas,Fast food
+318,Taco Bell,32.768342,-96.895438, Texas,Fast food
+319,Taco Bell,32.768342,-96.895438, Texas,Fast food
+320,McDonald's,29.559024,-95.348729, Texas,Fast food
+321,McDonald's,32.9624919,-96.64340625, Texas,Fast food
+322,McDonald's,33.51926317,-101.958253, Texas,Fast food
+323,Taco Bell,29.564529,-98.587092, Texas,Fast food
+324,Wendy's,33.5462,-101.923, Texas,Fast food
+325,McDonald's,29.49034,-98.43704, Texas,Fast food
+326,Taco Bell,30.5596,-97.8455, Texas,Fast food
+327,McDonald's,33.176727,-96.88814, Texas,Fast food
+328,McDonald's,32.67553,-97.09341, Texas,Fast food
+329,McDonald's,30.4198,-95.493, Texas,Fast food
+330,Taco Bell,30.32110481,-95.48691339, Texas,Fast food
+331,McDonald's,29.70857,-95.401496, Texas,Fast food
+332,McDonald's,30.65917,-96.33197, Texas,Fast food
+333,Burger King,29.878287,-95.608254, Texas,Fast food
+334,McDonald's,29.58192,-97.99387, Texas,Fast food
+335,McDonald's,30.71787,-95.56773, Texas,Fast food
+336,McDonald's,29.5645,-98.5961, Texas,Fast food
+337,McDonald's,29.461414,-98.692274, Texas,Fast food
+338,Wendy's,29.410728,-98.506837, Texas,Fast food
+339,McDonald's,32.810833,-96.771311, Texas,Fast food
+340,Subway,32.4418,-98.69472, Texas,Fast food
+341,McDonald's,25.9012,-97.49009, Texas,Fast food
+342,McDonald's,25.89377,-97.44733, Texas,Fast food
+343,Subway,34.07115,-99.00995, Texas,Fast food
+344,McDonald's,33.14296,-95.2407, Texas,Fast food
+345,McDonald's,29.39343,-96.0773, Texas,Fast food
+346,Subway,34.0904,-98.55906, Texas,Fast food
+347,Subway,32.530712,-97.65193, Texas,Fast food
+348,McDonald's,26.19854,-97.67991, Texas,Fast food
+349,Subway,32.37204,-99.74648, Texas,Fast food
+350,McDonald's,32.83380092,-97.13296952, Texas,Fast food
+351,McDonald's,32.78136,-96.80539, Texas,Fast food
+352,McDonald's,32.82635,-96.87129, Texas,Fast food
+353,McDonald's,32.647333,-96.943384, Texas,Fast food

@@ -1,21 +1,189 @@
-,name,geometry.location.lat,geometry.location.lng,State
-0,Safeway,34.2397055,-111.3174847,Arizona
-1,Heber Country Store,34.4299704,-110.5978677,Arizona
-2,Ponderosa Market,34.385171,-111.455427,Arizona
-3,Bashas',34.2420974,-111.321073,Arizona
-4,Tonto Basin Marketplace,33.8559395,-111.3108883,Arizona
-5,Rye Mercantile,34.0891277,-111.3529121,Arizona
-6,Back To Basics,34.2524287,-111.3231062,Arizona
-7,Walmart,34.2441023,-111.3243582,Arizona
-8,Safeway Bakery,34.239559,-111.3175721,Arizona
-9,Jakes Corner General Store,34.0098364,-111.319022,Arizona
-10,Walmart Supercenter,34.2440421,-111.3243724,Arizona
-11,Cherry Creek Store,34.1017761,-110.9491271,Arizona
-12,Woods Canyon Lake Store and Marina,34.333724,-110.944213,Arizona
-13,Dollar General,33.8494103,-111.3091417,Arizona
-14,Circle K,34.2546393,-111.2629835,Arizona
-15,Dollar Tree,34.2421243,-111.3209392,Arizona
-16,Circle K,34.2481289,-111.3231081,Arizona
-17,Big Lots,34.2421524,-111.3178801,Arizona
-18,Circle K,34.226757,-111.3290939,Arizona
-19,Maverik,34.2498361,-111.32177,Arizona
+,name,geometry.location.lat,geometry.location.lng,State,Type
+0,Safeway,34.2397055,-111.3174847,Arizona,Grocery
+1,Heber Country Store,34.4299704,-110.5978677,Arizona,Grocery
+2,Ponderosa Market,34.385171,-111.455427,Arizona,Grocery
+3,Bashas',34.2420974,-111.321073,Arizona,Grocery
+4,Tonto Basin Marketplace,33.8559395,-111.3108883,Arizona,Grocery
+5,Rye Mercantile,34.0891277,-111.3529121,Arizona,Grocery
+6,Back To Basics,34.2524287,-111.3231062,Arizona,Grocery
+7,Walmart,34.2441023,-111.3243582,Arizona,Grocery
+8,Safeway Bakery,34.239559,-111.3175721,Arizona,Grocery
+9,Jakes Corner General Store,34.0098364,-111.319022,Arizona,Grocery
+10,Walmart Supercenter,34.2440421,-111.3243724,Arizona,Grocery
+11,Cherry Creek Store,34.1017761,-110.9491271,Arizona,Grocery
+12,Woods Canyon Lake Store and Marina,34.333724,-110.944213,Arizona,Grocery
+13,Dollar General,33.8494103,-111.3091417,Arizona,Grocery
+14,Circle K,34.2546393,-111.2629835,Arizona,Grocery
+15,Dollar Tree,34.2421243,-111.3209392,Arizona,Grocery
+16,Circle K,34.2481289,-111.3231081,Arizona,Grocery
+17,Big Lots,34.2421524,-111.3178801,Arizona,Grocery
+18,Circle K,34.226757,-111.3290939,Arizona,Grocery
+19,Maverik,34.2498361,-111.32177,Arizona,Grocery
+20,Burger King,35.192109,-111.624197,Arizona,Fast food
+21,Taco Bell,32.697157,-114.624638,Arizona,Fast food
+22,Taco Bell,32.350373,-110.97579,Arizona,Fast food
+23,Taco Bell,32.356885,-111.091432,Arizona,Fast food
+24,Taco Bell,32.286587,-110.964259,Arizona,Fast food
+25,Taco Bell,32.162055,-110.94266,Arizona,Fast food
+26,Taco Bell,32.207496,-110.857543,Arizona,Fast food
+27,Taco Bell,32.207496,-110.857543,Arizona,Fast food
+28,Taco Bell,32.250912,-110.918865,Arizona,Fast food
+29,Taco Bell,33.363763,-111.911152,Arizona,Fast food
+30,Taco Bell,33.363763,-111.911152,Arizona,Fast food
+31,Taco Bell,33.609206,-112.356741,Arizona,Fast food
+32,Taco Bell,33.537573,-111.885038,Arizona,Fast food
+33,Taco Bell,33.613253,-111.926347,Arizona,Fast food
+34,Taco Bell,33.40627,-111.978863,Arizona,Fast food
+35,Taco Bell,33.639046,-112.149911,Arizona,Fast food
+36,Burger King,33.524418,-112.116097,Arizona,Fast food
+37,Burger King,33.524418,-112.116097,Arizona,Fast food
+38,Burger King,33.612761,-111.926225,Arizona,Fast food
+39,Burger King,33.638127,-112.332204,Arizona,Fast food
+40,Burger King,32.398868,-110.956718,Arizona,Fast food
+41,McDonald's,35.257,-112.191842,Arizona,Fast food
+42,McDonald's,33.971666,-112.725207,Arizona,Fast food
+43,McDonald's,32.191204,-110.7904,Arizona,Fast food
+44,McDonald's,33.638752,-112.355201,Arizona,Fast food
+45,McDonald's,32.267251,-110.893249,Arizona,Fast food
+46,McDonald's,32.235881,-110.910004,Arizona,Fast food
+47,McDonald's,32.381356,-111.047645,Arizona,Fast food
+48,McDonald's,32.251125,-111.015037,Arizona,Fast food
+49,McDonald's,32.23654,-110.946007,Arizona,Fast food
+50,McDonald's,33.378656,-111.928668,Arizona,Fast food
+51,McDonald's,33.327487,-111.96308,Arizona,Fast food
+52,McDonald's,33.406786,-111.958707,Arizona,Fast food
+53,McDonald's,34.135345,-109.288102,Arizona,Fast food
+54,McDonald's,33.582458,-111.881603,Arizona,Fast food
+55,McDonald's,33.638154,-112.277091,Arizona,Fast food
+56,McDonald's,31.554576,-110.279391,Arizona,Fast food
+57,McDonald's,34.198953,-110.017716,Arizona,Fast food
+58,McDonald's,33.538552,-111.883811,Arizona,Fast food
+59,McDonald's,34.250356,-110.028605,Arizona,Fast food
+60,McDonald's,34.863333,-111.801615,Arizona,Fast food
+61,Subway,33.456407,-112.274322,Arizona,Fast food
+62,Subway,33.565182,-112.252888,Arizona,Fast food
+63,McDonald's,33.480693,-111.985721,Arizona,Fast food
+64,McDonald's,33.494692,-112.237305,Arizona,Fast food
+65,McDonald's,33.422931,-112.222937,Arizona,Fast food
+66,McDonald's,33.640785,-112.066068,Arizona,Fast food
+67,McDonald's,33.581495,-112.133607,Arizona,Fast food
+68,McDonald's,33.752474,-111.992502,Arizona,Fast food
+69,McDonald's,33.480529,-112.183653,Arizona,Fast food
+70,McDonald's,33.407506,-112.013806,Arizona,Fast food
+71,McDonald's,33.407506,-112.013806,Arizona,Fast food
+72,McDonald's,33.480432,-112.001577,Arizona,Fast food
+73,McDonald's,33.683725,-112.107786,Arizona,Fast food
+74,McDonald's,33.683725,-112.107786,Arizona,Fast food
+75,McDonald's,33.393527,-111.877841,Arizona,Fast food
+76,McDonald's,33.652458,-112.256095,Arizona,Fast food
+77,McDonald's,33.50931,-112.205085,Arizona,Fast food
+78,McDonald's,34.150392,-114.289281,Arizona,Fast food
+79,McDonald's,33.681068,-112.238446,Arizona,Fast food
+80,McDonald's,31.366015,-110.941268,Arizona,Fast food
+81,McDonald's,33.366153,-111.858475,Arizona,Fast food
+82,McDonald's,33.423251,-111.753504,Arizona,Fast food
+83,McDonald's,35.21911,-114.00902,Arizona,Fast food
+84,McDonald's,33.553085,-112.17976,Arizona,Fast food
+85,McDonald's,33.567481,-112.18517,Arizona,Fast food
+86,McDonald's,33.596774,-112.16812,Arizona,Fast food
+87,McDonald's,33.378145,-111.722807,Arizona,Fast food
+88,Taco Bell,34.475184,-114.344666,Arizona,Fast food
+89,Subway,33.798642,-111.976421,Arizona,Fast food
+90,Subway,32.306803,-110.845362,Arizona,Fast food
+91,Subway,33.538574,-112.183513,Arizona,Fast food
+92,Subway,33.870849,-112.144688,Arizona,Fast food
+93,Subway,32.602889,-110.631785,Arizona,Fast food
+94,Subway,33.304919,-111.743948,Arizona,Fast food
+95,Subway,33.304919,-111.743948,Arizona,Fast food
+96,Subway,33.667951,-112.279887,Arizona,Fast food
+97,Subway,33.653132,-112.168263,Arizona,Fast food
+98,Burger King,33.511147,-112.185776,Arizona,Fast food
+99,Burger King,33.679688,-112.278641,Arizona,Fast food
+100,Burger King,33.712433,-112.106651,Arizona,Fast food
+101,Burger King,33.363197,-111.929138,Arizona,Fast food
+102,Burger King,33.435005,-112.305725,Arizona,Fast food
+103,Burger King,33.435005,-112.305725,Arizona,Fast food
+104,McDonald's,33.30636,-111.887397,Arizona,Fast food
+105,McDonald's,33.335611,-111.875062,Arizona,Fast food
+106,McDonald's,33.292273,-111.821769,Arizona,Fast food
+107,SUBWAY¬Æ,33.434809,-111.63224,Arizona,Fast food
+108,SUBWAY¬Æ,33.324534,-111.720441,Arizona,Fast food
+109,Taco Bell,34.76181,-112.453056,Arizona,Fast food
+110,Taco Bell,33.48012,-112.014783,Arizona,Fast food
+111,Taco Bell,33.581672,-112.135902,Arizona,Fast food
+112,Taco Bell,33.53818,-112.1351,Arizona,Fast food
+113,Taco Bell,33.53818,-112.1351,Arizona,Fast food
+114,Subway,33.450165,-112.341088,Arizona,Fast food
+115,Subway,32.701891,-114.603387,Arizona,Fast food
+116,Subway,33.460696,-112.340602,Arizona,Fast food
+117,Taco Bell,33.430814,-112.065629,Arizona,Fast food
+118,Taco Bell,33.430814,-112.065629,Arizona,Fast food
+119,Taco Bell,33.46124,-112.169699,Arizona,Fast food
+120,Taco Bell,33.46124,-112.169699,Arizona,Fast food
+121,Taco Bell,33.61031,-112.220979,Arizona,Fast food
+122,Taco Bell,34.154006,-114.280569,Arizona,Fast food
+123,Taco Bell,34.154006,-114.280569,Arizona,Fast food
+124,Taco Bell,34.154006,-114.280569,Arizona,Fast food
+125,Taco Bell,33.415485,-111.839571,Arizona,Fast food
+126,Taco Bell,33.415485,-111.839571,Arizona,Fast food
+127,Taco Bell,33.415485,-111.839571,Arizona,Fast food
+128,Taco Bell,33.364786,-111.85909,Arizona,Fast food
+129,Taco Bell,33.551661,-112.261045,Arizona,Fast food
+130,Taco Bell,33.536247,-112.357368,Arizona,Fast food
+131,Taco Bell,33.638297,-112.226662,Arizona,Fast food
+132,Taco Bell,33.437508,-112.358127,Arizona,Fast food
+133,Taco Bell,33.334781,-111.809236,Arizona,Fast food
+134,Taco Bell,33.509387,-112.201203,Arizona,Fast food
+135,Taco Bell,33.538778,-112.153765,Arizona,Fast food
+136,Taco Bell,33.56749,-112.152721,Arizona,Fast food
+137,Taco Bell,33.56749,-112.152721,Arizona,Fast food
+138,Taco Bell,33.611138,-112.166562,Arizona,Fast food
+139,Taco Bell,33.638421,-112.18253,Arizona,Fast food
+140,Taco Bell,33.638421,-112.18253,Arizona,Fast food
+141,Wendy's,33.482318,-111.9268,Arizona,Fast food
+142,Wendy's,33.334606,-111.945913,Arizona,Fast food
+143,Wendy's,33.49455,-112.068982,Arizona,Fast food
+144,Wendy's,33.494908,-112.118359,Arizona,Fast food
+145,Wendy's,33.637664,-112.066564,Arizona,Fast food
+146,Wendy's,34.597587,-112.341509,Arizona,Fast food
+147,Wendy's,33.798642,-111.976421,Arizona,Fast food
+148,Burger King,32.220524,-110.806292,Arizona,Fast food
+149,SUBWAY,33.623704,-112.424774,Arizona,Fast food
+150,Burger King,32.667754,-114.443453,Arizona,Fast food
+151,McDonald's,33.611215,-112.151738,Arizona,Fast food
+152,McDonald's,33.611215,-112.151738,Arizona,Fast food
+153,Wendy's,33.305599,-111.862029,Arizona,Fast food
+154,Burger King,33.378495,-111.806628,Arizona,Fast food
+155,Wendy's,32.345434,-111.013498,Arizona,Fast food
+156,Taco Bell,33.433257,-111.870142,Arizona,Fast food
+157,Taco Bell,33.433257,-111.870142,Arizona,Fast food
+158,Burger King,32.133791,-110.934083,Arizona,Fast food
+159,Burger King,33.553632,-112.109199,Arizona,Fast food
+160,McDonald's,35.182835,-111.661309,Arizona,Fast food
+161,Wendy's,33.569365,-111.709287,Arizona,Fast food
+162,Wendy's,33.298829,-111.743776,Arizona,Fast food
+163,Wendy's,33.278046,-111.787767,Arizona,Fast food
+164,Wendy's,33.278046,-111.787767,Arizona,Fast food
+165,Wendy's,33.278046,-111.787767,Arizona,Fast food
+166,Wendy's,31.362975,-110.930889,Arizona,Fast food
+167,Taco Bell,33.335453,-111.859934,Arizona,Fast food
+168,Subway,33.479073,-112.073777,Arizona,Fast food
+169,Burger King,34.249909,-110.043486,Arizona,Fast food
+170,Taco Bell,34.721839,-112.001977,Arizona,Fast food
+171,Taco Bell,34.721839,-112.001977,Arizona,Fast food
+172,Taco Bell,33.379316,-111.785595,Arizona,Fast food
+173,Wendy's,33.594734,-112.391136,Arizona,Fast food
+174,McDonald's,33.638268,-112.4147,Arizona,Fast food
+175,Taco Bell,33.451701,-112.134881,Arizona,Fast food
+176,McDonald's,33.3204847,-111.8416288,Arizona,Fast food
+177,McDonald's,33.44159,-112.55625,Arizona,Fast food
+178,Burger King,31.9092,-110.9852,Arizona,Fast food
+179,Taco Bell,33.63822,-112.41667,Arizona,Fast food
+180,McDonald's,32.3523,-110.9739,Arizona,Fast food
+181,Subway,33.30585,-111.94718,Arizona,Fast food
+182,McDonald's,33.43191,-111.87368,Arizona,Fast food
+183,SUBWAY,33.564862,-112.289651,Arizona,Fast food
+184,McDonald's,33.86551,-112.13743,Arizona,Fast food
+185,McDonald's,33.6092647,-112.3591104,Arizona,Fast food
+186,McDonalds,32.42455,-111.04289,Arizona,Fast food
+187,Burger King,32.32756,-111.04825,Arizona,Fast food

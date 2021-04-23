@@ -1,21 +1,535 @@
-,name,geometry.location.lat,geometry.location.lng,State
-0,Foods Co.,36.734168,-119.7350281, California
-1,Foods Co.,36.80615299999999,-119.859586, California
-2,The Market,36.838813,-119.8249406, California
-3,Food 4 Less,36.8652778,-119.7405556, California
-4,Grocery Outlet,36.80936,-119.70139, California
-5,Grocery Outlet,36.751553,-119.71928, California
-6,Foods Co.,36.3289994,-119.6759451, California
-7,Grocery Outlet Bargain Market,36.7397766,-119.7813873, California
-8,General Food Store,36.4158275,-119.0992163, California
-9,Grocery Outlet,36.79475,-119.78896, California
-10,Sprouts Farmers Market,36.83641,-119.69845, California
-11,Sprouts Farmers Market,36.844875,-119.79299, California
-12,FoodMaxx,36.81679159999999,-119.7885315, California
-13,Food 4 Less,36.348245,-119.298654, California
-14,FoodMaxx,36.809757,-119.69196, California
-15,Vons,36.8648627,-119.7583563, California
-16,FoodMaxx,36.73684,-119.69634, California
-17,Grocery Outlet,36.80914000000001,-119.85753, California
-18,Grocery Outlet,36.55108,-119.395706, California
-19,Best Buy Market IGA,36.3441591,-119.6377663, California
+,name,geometry.location.lat,geometry.location.lng,State,Type
+0,Foods Co.,36.734168,-119.7350281, California,Grocery
+1,Foods Co.,36.806153,-119.859586, California,Grocery
+2,The Market,36.838813,-119.8249406, California,Grocery
+3,Food 4 Less,36.8652778,-119.7405556, California,Grocery
+4,Grocery Outlet,36.80936,-119.70139, California,Grocery
+5,Grocery Outlet,36.751553,-119.71928, California,Grocery
+6,Foods Co.,36.3289994,-119.6759451, California,Grocery
+7,Grocery Outlet Bargain Market,36.7397766,-119.7813873, California,Grocery
+8,General Food Store,36.4158275,-119.0992163, California,Grocery
+9,Grocery Outlet,36.79475,-119.78896, California,Grocery
+10,Sprouts Farmers Market,36.83641,-119.69845, California,Grocery
+11,Sprouts Farmers Market,36.844875,-119.79299, California,Grocery
+12,FoodMaxx,36.8167916,-119.7885315, California,Grocery
+13,Food 4 Less,36.348245,-119.298654, California,Grocery
+14,FoodMaxx,36.809757,-119.69196, California,Grocery
+15,Vons,36.8648627,-119.7583563, California,Grocery
+16,FoodMaxx,36.73684,-119.69634, California,Grocery
+17,Grocery Outlet,36.80914,-119.85753, California,Grocery
+18,Grocery Outlet,36.55108,-119.395706, California,Grocery
+19,Best Buy Market IGA,36.3441591,-119.6377663, California,Grocery
+20,Burger King,32.739923,-116.942156, California,Fast food
+21,Burger King,32.805945,-116.971542, California,Fast food
+22,Burger King,33.051949,-117.260994, California,Fast food
+23,Burger King,39.76117,-121.842187, California,Fast food
+24,McDonald's,36.975287,-121.963929, California,Fast food
+25,McDonald's,37.365314,-118.39508, California,Fast food
+26,Burger King,38.259527,-122.062146, California,Fast food
+27,Burger King,34.425812,-117.378018, California,Fast food
+28,Burger King,34.419638,-117.291579, California,Fast food
+29,Taco Bell,35.398432,-119.109364, California,Fast food
+30,Taco Bell,38.927033,-121.087568, California,Fast food
+31,Taco Bell,41.755062,-124.193834, California,Fast food
+32,Taco Bell,37.492303,-120.872609, California,Fast food
+33,Taco Bell,37.517764,-120.84839, California,Fast food
+34,McDonald's,33.989111,-118.31236, California,Fast food
+35,McDonald's,34.415365,-118.464489, California,Fast food
+36,McDonald's,33.887088,-118.379032, California,Fast food
+37,McDonald's,37.288978,-120.454784, California,Fast food
+38,McDonald's,34.041633,-118.308538, California,Fast food
+39,McDonald's,37.670921,-121.031266, California,Fast food
+40,McDonald's,33.872499,-118.249899, California,Fast food
+41,McDonald's,36.545447,-119.376746, California,Fast food
+42,McDonald's,37.460186,-122.137635, California,Fast food
+43,McDonald's,38.596735,-121.415696, California,Fast food
+44,McDonald's,38.580839,-121.531005, California,Fast food
+45,McDonald's,38.083895,-122.232565, California,Fast food
+46,McDonald's,34.170497,-118.289434, California,Fast food
+47,McDonald's,33.964895,-117.697501, California,Fast food
+48,McDonald's,38.00878,-122.271288, California,Fast food
+49,McDonald's,34.077272,-118.13938, California,Fast food
+50,McDonald's,33.726842,-117.889116, California,Fast food
+51,McDonald's,36.607914,-121.855982, California,Fast food
+52,McDonald's,36.607914,-121.855982, California,Fast food
+53,McDonald's,38.676763,-121.750518, California,Fast food
+54,McDonald's,36.916716,-121.775824, California,Fast food
+55,Taco Bell,36.838733,-119.847902, California,Fast food
+56,Taco Bell,36.851564,-119.775033, California,Fast food
+57,Taco Bell,37.372189,-122.047663, California,Fast food
+58,Taco Bell,38.260137,-122.053517, California,Fast food
+59,Taco Bell,37.981376,-122.067541, California,Fast food
+60,Taco Bell,37.953026,-122.059777, California,Fast food
+61,Taco Bell,36.51788,-119.563527, California,Fast food
+62,Taco Bell,35.134484,-120.605221, California,Fast food
+63,Taco Bell,35.121085,-120.612819, California,Fast food
+64,Taco Bell,35.037452,-120.483624, California,Fast food
+65,Taco Bell,35.389522,-119.003386, California,Fast food
+66,Taco Bell,35.389522,-119.003386, California,Fast food
+67,Taco Bell,35.380387,-119.020827, California,Fast food
+68,Taco Bell,36.227047,-119.330843, California,Fast food
+69,Taco Bell,36.208664,-119.342028, California,Fast food
+70,Subway,33.727985,-117.885151, California,Fast food
+71,Subway,33.6964,-117.885408, California,Fast food
+72,Subway,33.769219,-117.835744, California,Fast food
+73,Burger King,33.895706,-118.22063, California,Fast food
+74,Burger King,33.895706,-118.22063, California,Fast food
+75,Burger King,33.895706,-118.22063, California,Fast food
+76,McDonald's,32.626972,-117.08742, California,Fast food
+77,Burger King,38.677958,-121.2652, California,Fast food
+78,Burger King,38.677958,-121.2652, California,Fast food
+79,McDonald's,39.52263,-122.21168, California,Fast food
+80,Burger King,37.694563,-122.085455, California,Fast food
+81,Burger King,37.294339,-121.950871, California,Fast food
+82,Burger King,38.632,-121.3288, California,Fast food
+83,Burger King,35.474274,-120.654576, California,Fast food
+84,Burger King,38.06753,-122.168337, California,Fast food
+85,Burger King,34.891772,-117.001755, California,Fast food
+86,Burger King,33.872425,-118.118195, California,Fast food
+87,Burger King,34.084904,-117.965034, California,Fast food
+88,Burger King,38.00562,-121.755602, California,Fast food
+89,McDonald's,38.394035,-122.818689, California,Fast food
+90,Subway,32.832368,-117.159573, California,Fast food
+91,McDonald's,36.606641,-121.846898, California,Fast food
+92,Taco Bell,38.745554,-121.225728, California,Fast food
+93,Taco Bell,38.577614,-121.549103, California,Fast food
+94,Taco Bell,38.577614,-121.549103, California,Fast food
+95,Taco Bell,38.707036,-121.313446, California,Fast food
+96,Taco Bell,32.742935,-117.042061, California,Fast food
+97,Taco Bell,34.259305,-118.304633, California,Fast food
+98,Taco Bell,34.189096,-118.941206, California,Fast food
+99,Taco Bell,34.189096,-118.941206, California,Fast food
+100,Taco Bell,33.710357,-116.289028, California,Fast food
+101,Taco Bell,34.207937,-118.623816, California,Fast food
+102,Taco Bell,33.160686,-117.346057, California,Fast food
+103,Taco Bell,33.729885,-117.998453, California,Fast food
+104,Taco Bell,38.706616,-121.271304, California,Fast food
+105,Burger King,34.034233,-117.974457, California,Fast food
+106,Burger King,33.693207,-117.3367, California,Fast food
+107,Burger King,36.202495,-121.129794, California,Fast food
+108,Burger King,34.098217,-118.343842, California,Fast food
+109,Burger King,32.584401,-117.108462, California,Fast food
+110,Burger King,34.136352,-117.196598, California,Fast food
+111,Burger King,34.153534,-118.258232, California,Fast food
+112,Burger King,34.127256,-118.258034, California,Fast food
+113,Burger King,34.142403,-118.239105, California,Fast food
+114,Burger King,33.759965,-117.954612, California,Fast food
+115,Burger King,38.250443,-121.29188, California,Fast food
+116,Burger King,33.859432,-117.975983, California,Fast food
+117,Burger King,36.735702,-119.744933, California,Fast food
+118,Burger King,36.771681,-119.864043, California,Fast food
+119,Burger King,36.771681,-119.864043, California,Fast food
+120,Burger King,37.532711,-121.958591, California,Fast food
+121,Burger King,37.552478,-121.978771, California,Fast food
+122,Burger King,37.552478,-121.978771, California,Fast food
+123,Burger King,40.580032,-124.146682, California,Fast food
+124,SUBWAY¬Æ,37.548317,-121.989071, California,Fast food
+125,Subway,33.984452,-118.394607, California,Fast food
+126,Subway,37.37333,-122.087798, California,Fast food
+127,Subway,38.56098,-121.734688, California,Fast food
+128,Subway,33.615869,-117.900471, California,Fast food
+129,Subway,32.776143,-117.154311, California,Fast food
+130,Subway,37.88988,-122.298943, California,Fast food
+131,Subway,39.772081,-121.872372, California,Fast food
+132,Subway,37.788837,-122.412042, California,Fast food
+133,Subway,37.595666,-122.385303, California,Fast food
+134,Subway,37.79422,-122.404783, California,Fast food
+135,Subway,37.794523,-122.39666, California,Fast food
+136,Subway,37.792501,-122.393985, California,Fast food
+137,Subway,37.787813,-122.420036, California,Fast food
+138,Subway,34.257252,-118.539464, California,Fast food
+139,Subway,38.446073,-122.686612, California,Fast food
+140,Subway,37.978821,-122.295056, California,Fast food
+141,Subway,38.361959,-122.714397, California,Fast food
+142,Subway,37.936016,-122.325561, California,Fast food
+143,Subway,33.756593,-116.302303, California,Fast food
+144,Subway,34.034167,-117.069777, California,Fast food
+145,Taco Bell,37.79375,-122.20116, California,Fast food
+146,Taco Bell,35.287564,-120.664691, California,Fast food
+147,Taco Bell,38.644489,-121.272724, California,Fast food
+148,Taco Bell,38.644489,-121.272724, California,Fast food
+149,Taco Bell,34.106839,-117.81915, California,Fast food
+150,Taco Bell,38.760063,-121.310523, California,Fast food
+151,Subway,34.187062,-118.466683, California,Fast food
+152,Subway,34.209646,-118.497715, California,Fast food
+153,Subway,34.228381,-118.366249, California,Fast food
+154,Subway,34.075067,-118.072855, California,Fast food
+155,Subway,33.74778,-116.871389, California,Fast food
+156,Subway,37.896228,-122.1034, California,Fast food
+157,Subway,37.860272,-122.125475, California,Fast food
+158,Subway,32.992226,-117.270343, California,Fast food
+159,Subway,38.744203,-121.265978, California,Fast food
+160,Subway,34.675128,-118.114345, California,Fast food
+161,Subway,37.321317,-120.468713, California,Fast food
+162,Subway,34.695787,-118.171716, California,Fast food
+163,Subway,33.931872,-117.93304, California,Fast food
+164,Subway,34.010598,-117.963551, California,Fast food
+165,Subway,33.939489,-117.942149, California,Fast food
+166,Subway,34.233223,-118.254552, California,Fast food
+167,Subway,37.369631,-121.915647, California,Fast food
+168,Subway,32.951205,-117.107693, California,Fast food
+169,SUBWAY¬Æ,33.943924,-118.207039, California,Fast food
+170,Taco Bell,36.066242,-119.027457, California,Fast food
+171,Taco Bell,39.727527,-121.806591, California,Fast food
+172,Taco Bell,33.137366,-117.052738, California,Fast food
+173,Taco Bell,34.146266,-118.11008, California,Fast food
+174,SUBWAY,41.75281,-124.18705, California,Fast food
+175,SUBWAY,41.77449,-124.19004, California,Fast food
+176,Wendy's,37.927425,-122.062767, California,Fast food
+177,Taco Bell,37.652775,-122.089715, California,Fast food
+178,McDonald's,33.873485,-117.878655, California,Fast food
+179,McDonald's,38.704734,-121.271233, California,Fast food
+180,McDonald's,38.707941,-121.312525, California,Fast food
+181,McDonald's,38.664058,-121.291145, California,Fast food
+182,McDonald's,37.768298,-122.453372, California,Fast food
+183,McDonald's,33.975042,-118.330889, California,Fast food
+184,McDonald's,32.880762,-117.159458, California,Fast food
+185,McDonald's,32.880762,-117.159458, California,Fast food
+186,McDonald's,36.837453,-119.802736, California,Fast food
+187,McDonald's,36.837453,-119.802736, California,Fast food
+188,McDonald's,36.837705,-119.847535, California,Fast food
+189,McDonald's,37.320284,-120.485083, California,Fast food
+190,McDonald's,33.6161,-117.911137, California,Fast food
+191,McDonald's,32.785707,-117.170113, California,Fast food
+192,McDonald's,34.035275,-118.238184, California,Fast food
+193,McDonald's,36.851734,-119.77295, California,Fast food
+194,McDonald's,36.851734,-119.77295, California,Fast food
+195,McDonald's,36.851734,-119.77295, California,Fast food
+196,McDonald's,37.700484,-121.871175, California,Fast food
+197,McDonald's,34.244856,-118.274174, California,Fast food
+198,McDonald's,33.73055,-118.01431, California,Fast food
+199,McDonald's,33.844637,-117.224633, California,Fast food
+200,Burger King,34.580116,-118.082779, California,Fast food
+201,Burger King,37.902279,-122.30414, California,Fast food
+202,Burger King,37.702126,-121.933288, California,Fast food
+203,Burger King,37.700032,-122.489711, California,Fast food
+204,Burger King,39.205201,-122.004018, California,Fast food
+205,Burger King,36.136523,-120.360664, California,Fast food
+206,Burger King,38.597312,-121.422214, California,Fast food
+207,Burger King,38.61533,-121.538765, California,Fast food
+208,Burger King,38.761991,-121.310444, California,Fast food
+209,Burger King,33.776283,-118.376316, California,Fast food
+210,Burger King,34.106434,-117.397575, California,Fast food
+211,Burger King,37.480769,-122.218487, California,Fast food
+212,Burger King,40.538406,-122.354551, California,Fast food
+213,Burger King,33.873148,-118.379499, California,Fast food
+214,Burger King,33.873148,-118.379499, California,Fast food
+215,Burger King,32.95136,-117.061635, California,Fast food
+216,Burger King,33.038004,-116.875086, California,Fast food
+217,Burger King,37.973044,-122.062987, California,Fast food
+218,Burger King,38.01659,-121.942023, California,Fast food
+219,Burger King,34.159074,-118.132842, California,Fast food
+220,Burger King,34.216946,-118.44812, California,Fast food
+221,Burger King,36.604872,-119.545881, California,Fast food
+222,Burger King,33.833925,-117.837645, California,Fast food
+223,Burger King,37.766263,-122.177453, California,Fast food
+224,Burger King,37.787465,-122.245885, California,Fast food
+225,Burger King,37.745081,-122.195946, California,Fast food
+226,Burger King,33.902,-118.04631, California,Fast food
+227,Burger King,34.18086,-118.384269, California,Fast food
+228,Burger King,33.993231,-117.056138, California,Fast food
+229,Burger King,33.817738,-117.908295, California,Fast food
+230,Burger King,32.693553,-117.133967, California,Fast food
+231,Burger King,37.635972,-122.41878, California,Fast food
+232,Burger King,34.165191,-117.285309, California,Fast food
+233,Burger King,37.709789,-121.079325, California,Fast food
+234,Subway,37.419394,-121.89741, California,Fast food
+235,Subway,37.451849,-121.910197, California,Fast food
+236,Burger King,33.660282,-117.873657, California,Fast food
+237,Burger King,37.308427,-121.01857, California,Fast food
+238,Burger King,38.316092,-122.298502, California,Fast food
+239,Burger King,37.994353,-122.119356, California,Fast food
+240,Burger King,37.056881,-120.852533, California,Fast food
+241,Burger King,34.024407,-118.285426, California,Fast food
+242,Burger King,33.974255,-118.282928, California,Fast food
+243,Burger King,33.945309,-118.278816, California,Fast food
+244,Burger King,34.086484,-118.219498, California,Fast food
+245,Burger King,34.022343,-118.261261, California,Fast food
+246,Burger King,34.022343,-118.261261, California,Fast food
+247,Burger King,34.02655,-118.334702, California,Fast food
+248,Burger King,34.024705,-118.220196, California,Fast food
+249,Burger King,34.040226,-118.292046, California,Fast food
+250,Burger King,34.053322,-118.275482, California,Fast food
+251,Burger King,34.053322,-118.275482, California,Fast food
+252,Burger King,33.787346,-118.139557, California,Fast food
+253,Burger King,33.856682,-118.168091, California,Fast food
+254,Burger King,33.856682,-118.168091, California,Fast food
+255,Burger King,38.115099,-121.281688, California,Fast food
+256,Burger King,38.137584,-121.260827, California,Fast food
+257,Burger King,32.74252,-117.047816, California,Fast food
+258,Burger King,37.541821,-122.301985, California,Fast food
+259,Burger King,35.256992,-120.689922, California,Fast food
+260,Burger King,37.293921,-121.832768, California,Fast food
+261,Burger King,37.355707,-121.819238, California,Fast food
+262,Burger King,37.333813,-121.85396, California,Fast food
+263,Burger King,37.72153,-122.4376, California,Fast food
+264,Burger King,37.765204,-122.419302, California,Fast food
+265,SUBWAY¬Æ,34.120941,-117.705129, California,Fast food
+266,Taco Bell,36.097674,-119.574204, California,Fast food
+267,Taco Bell,33.800525,-118.31622, California,Fast food
+268,Taco Bell,36.321519,-119.313493, California,Fast food
+269,Taco Bell,34.069454,-118.27727, California,Fast food
+270,Taco Bell,33.734453,-118.292655, California,Fast food
+271,Taco Bell,37.404181,-121.995359, California,Fast food
+272,Taco Bell,38.59777,-121.26621, California,Fast food
+273,Taco Bell,36.703995,-121.653373, California,Fast food
+274,Taco Bell,39.524641,-122.212451, California,Fast food
+275,Taco Bell,33.930431,-118.183967, California,Fast food
+276,Taco Bell,33.930431,-118.183967, California,Fast food
+277,Taco Bell,38.743792,-121.172403, California,Fast food
+278,Taco Bell,38.40861,-121.379198, California,Fast food
+279,Taco Bell,35.323261,-119.12751, California,Fast food
+280,Wendy's,33.807991,-118.029658, California,Fast food
+281,Wendy's,34.086141,-117.87077, California,Fast food
+282,Wendy's,33.629462,-117.90931, California,Fast food
+283,Wendy's,33.691336,-116.183934, California,Fast food
+284,Wendy's,33.853977,-117.563599, California,Fast food
+285,Wendy's,37.953548,-122.043836, California,Fast food
+286,Wendy's,33.995469,-117.714739, California,Fast food
+287,Wendy's,37.692387,-122.089846, California,Fast food
+288,Wendy's,34.219027,-118.587818, California,Fast food
+289,Wendy's,33.930826,-116.946903, California,Fast food
+290,Wendy's,35.312147,-119.09208, California,Fast food
+291,Wendy's,34.079185,-118.111321, California,Fast food
+292,Wendy's,34.087742,-118.134953, California,Fast food
+293,Wendy's,33.847903,-117.889121, California,Fast food
+294,Taco Bell,40.780674,-124.185734, California,Fast food
+295,Taco Bell,33.68316,-117.919907, California,Fast food
+296,Taco Bell,37.362612,-121.834103, California,Fast food
+297,Taco Bell,37.314172,-121.792888, California,Fast food
+298,Taco Bell,34.030808,-118.334855, California,Fast food
+299,Taco Bell,37.638681,-120.928193, California,Fast food
+300,Subway,35.267234,-119.252777, California,Fast food
+301,Subway,33.772625,-118.189887, California,Fast food
+302,McDonald's,34.046317,-118.208537, California,Fast food
+303,McDonald's,37.290003,-121.880646, California,Fast food
+304,McDonald's,37.514971,-120.84836, California,Fast food
+305,McDonald's,33.596604,-117.24305, California,Fast food
+306,McDonald's,38.559328,-121.481879, California,Fast food
+307,McDonald's,38.574149,-121.410111, California,Fast food
+308,McDonald's,34.088105,-117.749675, California,Fast food
+309,McDonald's,38.021055,-121.941953, California,Fast food
+310,McDonald's,33.18235,-117.340242, California,Fast food
+311,McDonald's,40.176826,-122.233802, California,Fast food
+312,McDonald's,32.67734,-117.082933, California,Fast food
+313,McDonald's,32.67734,-117.082933, California,Fast food
+314,McDonald's,37.507401,-120.872211, California,Fast food
+315,McDonald's,37.507401,-120.872211, California,Fast food
+316,McDonald's,37.31863,-120.473743, California,Fast food
+317,McDonald's,37.110972,-121.640814, California,Fast food
+318,McDonald's,41.397659,-122.378968, California,Fast food
+319,Taco Bell,34.121688,-117.373419, California,Fast food
+320,Taco Bell,34.161944,-117.334354, California,Fast food
+321,Taco Bell,34.102676,-117.300882, California,Fast food
+322,Taco Bell,34.106165,-117.431013, California,Fast food
+323,Taco Bell,32.979905,-117.080032, California,Fast food
+324,Taco Bell,32.582324,-117.033004, California,Fast food
+325,Taco Bell,32.838273,-116.982753, California,Fast food
+326,Taco Bell,32.802064,-117.004318, California,Fast food
+327,Taco Bell,34.079067,-118.119986, California,Fast food
+328,Taco Bell,32.661897,-117.081172, California,Fast food
+329,Taco Bell,34.078001,-117.611506, California,Fast food
+330,Taco Bell,34.106269,-117.819625, California,Fast food
+331,Taco Bell,34.032871,-117.668372, California,Fast food
+332,Taco Bell,33.716313,-117.955839, California,Fast food
+333,Taco Bell,33.701903,-117.932662, California,Fast food
+334,Taco Bell,33.537628,-117.779996, California,Fast food
+335,Taco Bell,33.466037,-117.704132, California,Fast food
+336,Taco Bell,40.173433,-122.231365, California,Fast food
+337,Taco Bell,38.474746,-121.447692, California,Fast food
+338,Taco Bell,39.145651,-121.593758, California,Fast food
+339,Taco Bell,38.344965,-120.770603, California,Fast food
+340,Taco Bell,38.654505,-121.383436, California,Fast food
+341,Subway,34.050784,-118.248154, California,Fast food
+342,Subway,34.04048,-118.463493, California,Fast food
+343,McDonald's,37.32325,-121.91326, California,Fast food
+344,McDonald's,33.203582,-117.364021, California,Fast food
+345,McDonald's,34.346352,-119.070726, California,Fast food
+346,McDonald's,32.82659,-116.901694, California,Fast food
+347,McDonald's,33.765905,-117.990142, California,Fast food
+348,McDonald's,34.142416,-118.236665, California,Fast food
+349,McDonald's,34.146351,-118.259234, California,Fast food
+350,McDonald's,34.29511,-118.417126, California,Fast food
+351,McDonald's,34.602013,-118.152452, California,Fast food
+352,McDonald's,33.865369,-117.544107, California,Fast food
+353,McDonald's,34.027227,-118.219545, California,Fast food
+354,McDonald's,34.047888,-117.309618, California,Fast food
+355,McDonald's,34.047888,-117.309618, California,Fast food
+356,McDonald's,37.786014,-121.216024, California,Fast food
+357,McDonald's,33.99431,-117.057108, California,Fast food
+358,McDonald's,36.851817,-119.728874, California,Fast food
+359,McDonald's,37.882305,-122.29648, California,Fast food
+360,McDonald's,37.882305,-122.29648, California,Fast food
+361,McDonald's,33.926014,-118.239029, California,Fast food
+362,McDonald's,33.926014,-118.239029, California,Fast food
+363,Wendy's,37.316044,-121.873684, California,Fast food
+364,Wendy's,37.273974,-121.934297, California,Fast food
+365,Wendy's,37.313168,-121.931061, California,Fast food
+366,Wendy's,32.802734,-117.012022, California,Fast food
+367,King Wah,41.49456,-120.54684, California,Fast food
+368,Wendy's,34.190574,-118.327835, California,Fast food
+369,McDonald's,34.107057,-117.864654, California,Fast food
+370,Taco Bell,33.946388,-117.424882, California,Fast food
+371,McDonald's,34.080321,-117.718549, California,Fast food
+372,McDonald's,34.080321,-117.718549, California,Fast food
+373,McDonald's,34.069616,-117.435214, California,Fast food
+374,Wendy's,33.767721,-116.95832, California,Fast food
+375,McDonalds,39.716568,-121.795763, California,Fast food
+376,Burger King,37.351887,-121.999765, California,Fast food
+377,Taco Bell,36.296587,-119.314095, California,Fast food
+378,Burger King,33.945176,-118.351951, California,Fast food
+379,McDonald's,35.26292,-120.677409, California,Fast food
+380,McDonald's,36.226287,-119.337347, California,Fast food
+381,McDonald's,38.875361,-121.296456, California,Fast food
+382,Burger King,34.277721,-119.214022, California,Fast food
+383,Burger King,34.277721,-119.214022, California,Fast food
+384,McDonald's,33.917742,-117.93002, California,Fast food
+385,SUBWAY,32.80498,-116.967009, California,Fast food
+386,Burger King,38.105919,-122.231822, California,Fast food
+387,Burger King,38.351905,-121.950658, California,Fast food
+388,Burger King,33.950455,-118.164355, California,Fast food
+389,Burger King,33.950455,-118.164355, California,Fast food
+390,Burger King,37.977772,-120.326176, California,Fast food
+391,Burger King,37.977772,-120.326176, California,Fast food
+392,Burger King,38.407691,-122.838681, California,Fast food
+393,Burger King,37.045364,-122.027401, California,Fast food
+394,Burger King,38.428141,-122.741898, California,Fast food
+395,Burger King,38.452162,-122.770695, California,Fast food
+396,Burger King,38.41107,-122.713875, California,Fast food
+397,Burger King,38.526376,-122.787462, California,Fast food
+398,Burger King,38.526376,-122.787462, California,Fast food
+399,Burger King,34.47086,-117.339542, California,Fast food
+400,Burger King,34.47086,-117.339542, California,Fast food
+401,Burger King,34.506691,-117.399733, California,Fast food
+402,Burger King,34.281441,-119.301079, California,Fast food
+403,Taco Bell,37.754579,-121.139626, California,Fast food
+404,Taco Bell,33.901622,-118.308882, California,Fast food
+405,Wendy's,34.033847,-117.074343, California,Fast food
+406,Wendy's,34.261685,-119.212772, California,Fast food
+407,Wendy's,37.389378,-122.031397, California,Fast food
+408,Wendy's,37.389378,-122.031397, California,Fast food
+409,Wendy's,37.351091,-122.014663, California,Fast food
+410,McDonald's,38.686438,-121.341699, California,Fast food
+411,McDonald's,38.686438,-121.341699, California,Fast food
+412,McDonald's,33.979352,-118.202501, California,Fast food
+413,Wendy's,34.115271,-117.82956, California,Fast food
+414,Wendy's,33.91005,-117.881367, California,Fast food
+415,Wendy's,34.148463,-117.474549, California,Fast food
+416,McDonald's,36.254267,-120.250168, California,Fast food
+417,McDonald's,34.864494,-118.176398, California,Fast food
+418,McDonald's,34.028998,-117.592389, California,Fast food
+419,Taco Bell,38.638573,-121.328511, California,Fast food
+420,Taco Bell,38.185121,-122.25425, California,Fast food
+421,Taco Bell,35.266665,-119.253207, California,Fast food
+422,Wendy's,34.272309,-118.767124, California,Fast food
+423,Wendy's,34.428007,-118.536017, California,Fast food
+424,Wendy's,32.838291,-116.986979, California,Fast food
+425,McDonald's,38.711395,-121.364626, California,Fast food
+426,McDonald's,34.198915,-118.449299, California,Fast food
+427,Taco Bell,33.877237,-118.352923, California,Fast food
+428,Taco Bell,33.877237,-118.352923, California,Fast food
+429,Taco Bell,33.823052,-118.336258, California,Fast food
+430,Taco Bell,33.823052,-118.336258, California,Fast food
+431,Taco Bell,37.925744,-122.016956, California,Fast food
+432,Taco Bell,37.733035,-120.953386, California,Fast food
+433,Taco Bell,34.37947,-118.56815, California,Fast food
+434,Taco Bell,34.033652,-118.091995, California,Fast food
+435,Taco Bell,39.394159,-123.34914, California,Fast food
+436,Taco Bell,33.789645,-118.162162, California,Fast food
+437,Taco Bell,37.417263,-121.875722, California,Fast food
+438,Taco Bell,37.244934,-121.888145, California,Fast food
+439,Taco Bell,37.700654,-121.908821, California,Fast food
+440,Taco Bell,33.869473,-118.124765, California,Fast food
+441,Taco Bell,33.873091,-118.37254, California,Fast food
+442,Taco Bell,34.216385,-118.224766, California,Fast food
+443,McDonalds,33.036648,-116.87748, California,Fast food
+444,McDonald's,33.47952182,-117.1028101, California,Fast food
+445,McDonald's,34.55817,-118.08532, California,Fast food
+446,Wendy's,34.1072,-117.3951, California,Fast food
+447,Subway,38.52687,-122.78768, California,Fast food
+448,Taco Bell,37.13322,-121.63016, California,Fast food
+449,McDonald's,37.520226,-121.985664, California,Fast food
+450,McDonald's,37.412779,-121.897648, California,Fast food
+451,McDonald's,37.412779,-121.897648, California,Fast food
+452,Subway,37.307785,-121.9006, California,Fast food
+453,McDonald's,32.952656,-117.05974, California,Fast food
+454,Subway,32.748043,-117.16206, California,Fast food
+455,Subway,34.201137,-118.571126, California,Fast food
+456,McDonald's,34.07886,-118.05328, California,Fast food
+457,McDonald's,34.19466,-118.34949, California,Fast food
+458,Taco Bell,33.857939,-118.301579, California,Fast food
+459,Taco Bell,32.769675,-117.14312, California,Fast food
+460,McDonald's,38.78773,-121.29063, California,Fast food
+461,McDonald's,34.2795,-118.7362, California,Fast food
+462,McDonald's,34.2795,-118.7362, California,Fast food
+463,Taco Bell,33.858478,-118.072976, California,Fast food
+464,McDonald's,36.967116,-122.03899, California,Fast food
+465,McDonald's,37.35193,-121.95876, California,Fast food
+466,McDonald's,37.9665,-121.7828, California,Fast food
+467,Taco Bell,37.375637,-122.01329, California,Fast food
+468,Taco Bell,37.375637,-122.01329, California,Fast food
+469,McDonald's,32.6603,-117.0344, California,Fast food
+470,McDonald's,32.6404,-117.098531, California,Fast food
+471,Taco Bell,39.72751,-121.80662, California,Fast food
+472,McDonald's,38.3031,-122.477, California,Fast food
+473,Taco Bell,34.07042,-118.444145, California,Fast food
+474,McDonald's,33.7713899,-118.179547, California,Fast food
+475,McDonald's,33.846241,-118.116223, California,Fast food
+476,McDonald's,36.85897,-121.40113, California,Fast food
+477,Taco Bell,33.944672,-118.344203, California,Fast food
+478,Burger King,38.07884458,-122.1905615, California,Fast food
+479,Burger King,38.07884458,-122.1905615, California,Fast food
+480,McDonald's,37.79697,-121.23589, California,Fast food
+481,McDonald's,34.16217,-118.51723, California,Fast food
+482,McDonald's,34.16217,-118.51723, California,Fast food
+483,SUBWAY,32.7245,-117.1456, California,Fast food
+484,McDonald's,37.571045,-122.031715, California,Fast food
+485,McDonald's,33.566017,-117.70824, California,Fast food
+486,SUBWAY,38.5474,-121.35942, California,Fast food
+487,McDonald's,34.07208,-117.36955, California,Fast food
+488,Taco Bell,37.70621,-121.72198, California,Fast food
+489,Burger King,38.64293,-121.19069, California,Fast food
+490,SUBWAY,38.88984,-121.29287, California,Fast food
+491,McDonald's,37.251099,-121.831714, California,Fast food
+492,Taco Bell,34.421195,-118.542176, California,Fast food
+493,SUBWAY,33.532276,-117.77524, California,Fast food
+494,McDonald's,32.8311,-117.1358, California,Fast food
+495,McDonald's,32.83314,-117.20188, California,Fast food
+496,McDonald's,37.996114,-122.304924, California,Fast food
+497,Subway,37.27497,-121.85258, California,Fast food
+498,McDonald's,37.348919,-121.865119, California,Fast food
+499,Taco Bell,37.589455,-122.06838, California,Fast food
+500,McDonald's,33.2207,-117.2449, California,Fast food
+501,SUBWAY,33.244576,-117.29085, California,Fast food
+502,Burger King,32.71153,-117.11505, California,Fast food
+503,McDonald's,38.5558,-121.41007, California,Fast food
+504,McDonald's,38.49622,-121.43518, California,Fast food
+505,Subway,32.746038,-117.249006, California,Fast food
+506,Taco Bell,34.416039,-118.466127, California,Fast food
+507,McDonald's,35.35471,-119.06161, California,Fast food
+508,McDonald's,34.119029,-118.192705, California,Fast food
+509,McDonalds,33.805832,-118.354095, California,Fast food
+510,McDonald's,33.80427,-118.18953, California,Fast food
+511,McDonald's,33.789913,-118.215576, California,Fast food
+512,Taco Bell,33.9167,-118.35053, California,Fast food
+513,Subway,37.268883,-121.94396, California,Fast food
+514,McDonald's,33.9869,-117.8704, California,Fast food
+515,McDonald's,33.9869,-117.8704, California,Fast food
+516,McDonald's,34.0037,-117.889, California,Fast food
+517,Subway,38.547352,-121.454149, California,Fast food
+518,McDonald's,36.74358,-119.78998, California,Fast food
+519,McDonald's,33.83192,-118.00305, California,Fast food
+520,McDonald's,33.83192,-118.00305, California,Fast food
+521,SUBWAY,34.183514,-118.15949, California,Fast food
+522,SUBWAY,34.183514,-118.15949, California,Fast food
+523,McDonald's,34.151294,-118.026696, California,Fast food
+524,McDonald's,37.7682,-122.1742, California,Fast food
+525,McDonald's,37.44265,-122.17035, California,Fast food
+526,McDonald's,37.32886,-121.85951, California,Fast food
+527,McDonald's,34.10666,-117.4892, California,Fast food
+528,McDonald's,34.08785,-117.68937, California,Fast food
+529,Subway,37.811256,-122.26611, California,Fast food
+530,McDonald's,34.98445,-118.94793, California,Fast food
+531,SUBWAY,33.924828,-118.378075, California,Fast food
+532,McDonald's,34.17637,-119.20885, California,Fast food
+533,McDonald's,34.18063,-119.16498, California,Fast food
