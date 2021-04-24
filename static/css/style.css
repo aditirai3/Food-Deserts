@@ -49,3 +49,35 @@ ol a{
   display:inline-block;
   vertical-align: center;
 }
+
+#viz1619274809127{
+  height: 50%;
+  width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#vizrows{
+  padding-top: 10px;
+}
+
+.mapViz{
+  object-fit: cover;
+  height: 300px;
+  min-width: 600px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dashViz{
+  min-height: 500px;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
