@@ -39,3 +39,13 @@ pre{
   font-family: monospace;
   font-size: 13px;
 }
+
+ol a{
+  color:black;
+  font-weight: bold;
+}
+
+.list-inline{
+  display:inline-block;
+  vertical-align: center;
+}

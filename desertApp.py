@@ -56,11 +56,6 @@ def stateinputs():
 def tractinputs():
 	return redirect('/api/v1.0/tract/'+str(request.form['tract']))
 
-# @app.route('/zipcontact', methods=['GET', 'POST'])
-# def zipcontact():
-
-# 	return redirect('/api/v1.0/zip/'+str(request.form['zipcode']))
-
 @app.route("/resources.html", methods=['GET', 'POST'])
 def resources():
     # Return template and data
